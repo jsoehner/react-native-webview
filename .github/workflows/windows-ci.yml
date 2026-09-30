@@ -1,6 +1,9 @@
 name: Windows CI
 on: [pull_request]
 
+permissions:
+  contents: read
+
 jobs:
   run-windows-tests:
     name: Build & run tests (New Architecture)
